@@ -12,21 +12,21 @@
 		{
 			"kind": "main",
 			"tag": "corp-sap-box",
-			"url": "https://github.wdf.sap.corp/I057024/customwidgets/tree/master/box/box.js",
+			"url": "https://narashimman.github.io/customwidgets/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "corp-sap-box-styling",
-			"url": "https://github.wdf.sap.corp/I057024/customwidgets/tree/master/box/box_styling.js",
+			"url": "https://narashimman.github.io/customwidgets/box/box_styling.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
 			"tag": "corp-sap-box-builder",
-			"url": "https://github.wdf.sap.corp/I057024/customwidgets/tree/master/box/box_builder.js",
+			"url": "https://narashimman.github.io/customwidgets/box/box_builder.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
