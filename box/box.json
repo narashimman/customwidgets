@@ -1,0 +1,79 @@
+{
+	"id": "corp.sap.box",
+	"version": "1.0.0",
+	"name": "Box",
+	"description": "Box",
+	"newInstancePrefix": "Box",
+	"icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABNElEQVQ4jY3SsSvEcRjH8Zcjg8QlDJL5RpNkMEjI4A8wGQwy+QuUQZLJJBlMMkgyGAwXiwySZJBkkGQhySBdnOH7PZ1zv7v71DP8ep739/d8nuepV1mDaMULvqvU/tM08jHekcUixtFWDZ5AruiB0vjCNVbqy8AD2McpRnGMJzSiAynUoR3PpXBG8JvHDZYwgpaYT+Mw5i/QXAx34T6h5RzOsRPbf8AY1gpwGpcVPBfHO3oxhzPR21GNcE7YAqzjCuZrhPOYifAkPjFEWMcWZrGHtwR4OcJ9+Ij1RE+FtgqWBiNQmMu2sL5uPBYPD06wGQvKqRMNaBI2kY3fv+rDq3AsG8IVNpU8khJWeCvhjNOYwm609IGD6LMHC/EnmYQu/6hRuL5V3Akz+MRwLXA5ZdCflPwByh9u2FOetM0AAAAASUVORK5CYII=",
+	"vendor": "SAP",
+	"eula": "",
+	"license": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "corp-sap-box",
+			"url": "https://github.wdf.sap.corp/I057024/customwidgets/tree/master/box/box.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "styling",
+			"tag": "corp-sap-box-styling",
+			"url": "https://github.wdf.sap.corp/I057024/customwidgets/tree/master/box/box_styling.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "builder",
+			"tag": "corp-sap-box-builder",
+			"url": "https://github.wdf.sap.corp/I057024/customwidgets/tree/master/box/box_builder.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"color": {
+			"type": "string",
+			"description": "Background color",
+			"default": "red"
+		},
+		"opacity": {
+			"type": "number",
+			"description": "Opacity",
+			"default": "1"
+		},
+		"width": {
+			"type": "integer",
+			"default": 100
+		},
+		"height": {
+			"type": "integer",
+			"default": 100
+		}
+	},
+	"methods": {
+		"setColor": {
+			"description": "Sets the background color.",
+			"parameters": [
+				{
+					"name": "newColor",
+					"type": "string",
+					"description": "The new background color"
+				}
+			],
+			"body": "this.color = newColor;"
+		},
+		"getColor": {
+			"returnType": "string",
+			"description": "Returns the background color.",
+			"body": "return this.color;"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Box."
+		}
+	}
+}
+
+ 
