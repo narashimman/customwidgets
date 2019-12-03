@@ -1,0 +1,26 @@
+{
+    "id": "com.github.narashimman.customwidgets.chatbot",
+    "version": "1.0.0",
+    "name": "Chat Bot",
+    "description": "A Sample Chat Bot",
+    "newInstancePrefix": "chatbot",
+    "icon": "https://narashimman.github.io/customwidgets/chatbot/icon.png",
+    "vendor": "SAP",
+    "eula": "",
+    "license": "",
+    "webcomponents": [{
+            "kind": "main",
+            "tag": "com-github-narashimman-customwidgets-chatbot",
+            "url": "https://narashimman.github.io/customwidgets/chatbot/chatbot.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {},
+    "methods": {},
+    "events": {
+        "onClick": {
+            "description": "sample click event"
+        }
+    }
+}
