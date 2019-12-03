@@ -2,7 +2,7 @@
     let template = document.createElement("template");
     template.innerHTML = `
   
-    <H1>HELLO WORLD </H1>
+    <H1>HELLO WORLD 2</H1>
     <style>
     :host {
     border-radius: 25px;
