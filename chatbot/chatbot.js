@@ -21,6 +21,7 @@
     super();
     let shadowRoot = this.attachShadow({mode: "open"});
     shadowRoot.appendChild(template.content.cloneNode(true));
+    console.log("instantiated");
     this.addEventListener("click", event => {
     var event = new Event("onClick");
     this.dispatchEvent(event);
