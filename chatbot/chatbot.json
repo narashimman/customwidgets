@@ -1,8 +1,8 @@
 {
     "id": "com.github.narashimman.cutomwidgets.chatbot",
     "version": "1.0.0",
-    "name": "Colored Box",
-    "description": "A colored box",
+    "name": "chatbot",
+    "description": "sample chat bot",
     "newInstancePrefix": "chatbot",
     "icon": "https://narashimman.github.io/customwidgets/chatbot/icon.png",
     "vendor": "SAP",
