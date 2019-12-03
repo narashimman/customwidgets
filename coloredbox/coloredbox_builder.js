@@ -1,4 +1,4 @@
-(function () {
+(function () { 
     let template = document.createElement("template");
     template.innerHTML = `
         < form id = "form" >
@@ -46,5 +46,5 @@
             return this._shadowRoot.getElementById("builder_opacity").value;
         }
     }
-    customElements.define("com-sap-sample-coloredbox-builder", ColoredBoxBuilderPanel);
+    customElements.define("com-github-narashimman-customwidgets-coloredbox-builder", ColoredBoxBuilderPanel);
 })();

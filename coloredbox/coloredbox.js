@@ -1,4 +1,4 @@
-(function () {
+(function () { 
     let template = document.createElement("template");
     template.innerHTML = `
     <style>
@@ -34,5 +34,5 @@ class ColoredBox extends HTMLElement {
         }
     }
 }
-customElements.define("com-sap-sample-coloredbox", ColoredBox);
+customElements.define("com-github-narashimman-customwidgets-coloredbox", ColoredBox);
 }) ();
