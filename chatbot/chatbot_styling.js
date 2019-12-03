@@ -37,4 +37,4 @@ get color() {
 return this._shadowRoot.getElementById("styling_color").value;
 }
 }
-customElements.define("com-sap-sample-coloredbox-styling", ColoredBoxStylingPanel);
+customElements.define("com-github-narashimman-customwidgets-chatbot", chatbotStylingPanel);
