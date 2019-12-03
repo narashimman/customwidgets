@@ -37,4 +37,4 @@ get color() {
 return this._shadowRoot.getElementById("styling_color").value;
 }
 }
-customElements.define("com-github-narashimman-customwidgets-chatbot", chatbotStylingPanel);
+customElements.define("com-github-narashimman-customwidgets-chatbot-styling", chatbotStylingPanel);
