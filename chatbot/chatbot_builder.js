@@ -44,5 +44,5 @@ get opacity() {
 return this._shadowRoot.getElementById("builder_opacity").value;
 }
 }
-customElements.define("com-sap-sample-coloredbox-builder", ColoredBoxBuilderPanel);
+customElements.define("com-github-narashimman-customwidgets-chatbot-builder", chatbotBuilderPanel);
 })();
