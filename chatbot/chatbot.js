@@ -29,8 +29,8 @@
     });
     this._props = {};
     }
-    onCustomWidgetBeforeUpdate(changedProperties) {}
-    onCustomWidgetAfterUpdate(changedProperties) {}
+    onCustomWidgetBeforeUpdate() {}
+    onCustomWidgetAfterUpdate() {}
     }
     customElements.define("com-github-narashimman-customwidgets-chatbot", chatbot);
     })();
