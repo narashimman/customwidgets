@@ -46,5 +46,5 @@
             return this._shadowRoot.getElementById("builder_opacity").value;
         }
     }
-    customElements.define("com-github-narashimman-customwidgets-coloredbox-builder", ColoredBoxBuilderPanel);
+    customElements.define("com-narasgithub-customwidgets-coloredbox-builder", ColoredBoxBuilderPanel);
 })();

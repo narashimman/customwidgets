@@ -1,6 +1,6 @@
 {
-    "id": "com.github.narashimman.customwidgets.coloredbox", 
-    "version": "1.0.0",
+    "id": "com.tangoboat.customwidgets.coloredbox", 
+    "version": "1.1.0",
     "name": "Colored Box",
     "description": "A colored box",
     "newInstancePrefix": "ColoredBox",
@@ -10,21 +10,21 @@
     "license": "",
     "webcomponents": [{
             "kind": "main",
-            "tag": "com-github-narashimman-customwidgets-coloredbox",
+            "tag": "com-tangoboat-customwidgets-coloredbox",
             "url": "https://narashimman.github.io/customwidgets/coloredbox/coloredbox.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "styling",
-            "tag": "com-github-narashimman-customwidgets-coloredbox-styling",
+            "tag": "com-tangoboat-customwidgets-coloredbox-styling",
             "url": "https://narashimman.github.io/customwidgets/coloredbox/coloredbox_styling.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "builder",
-            "tag": "com-github-narashimman-customwidgets-coloredbox-builder",
+            "tag": "com-tangoboat-customwidgets-coloredbox-builder",
             "url": "https://narashimman.github.io/customwidgets/coloredbox/coloredbox_builder.js",
             "integrity": "",
             "ignoreIntegrity": true

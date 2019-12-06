@@ -40,4 +40,4 @@
                 return this._shadowRoot.getElementById("styling_color").value;
             }
         }
-        customElements.define("com-github-narashimman-customwidgets-coloredbox-styling", ColoredBoxStylingPanel);})
+        customElements.define("com-narasgithub-customwidgets-coloredbox-styling", ColoredBoxStylingPanel);})

@@ -34,5 +34,5 @@ class ColoredBox extends HTMLElement {
         }
     }
 }
-customElements.define("com-github-narashimman-customwidgets-coloredbox", ColoredBox);
+customElements.define("com-narasgithub-customwidgets-coloredbox", ColoredBox);
 }) ();
