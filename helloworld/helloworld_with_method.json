@@ -1,0 +1,69 @@
+{
+    "id": "com.narasgithub.customwidgets.helloworldwm", 
+    "version": "1.1.0",
+    "name": "Hello World with methods",
+    "description": "Hello World with methods",
+    "newInstancePrefix": "helloworldwm",
+    "icon": "https://narashimman.github.io/customwidgets/helloworld/icon_hw.png",
+    "vendor": "SAP",
+    "eula": "",
+    "license": "",
+    "webcomponents": [{
+            "kind": "main",
+            "tag": "com-narasgithub-customwidgets-helloworld",
+            "url": "https://narashimman.github.io/customwidgets/helloworld/helloworld_with_method.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }],
+        "properties": {
+            "color": {
+                "type": "string",
+                "description": "Background color",
+                "default": "red"},
+            "opacity": {
+                "type": "number",
+                "description": "Opacity",
+                "default": "1"},
+            "width": {
+                "type": "integer",
+                "default": 100},
+            "height": {
+                "type": "integer",
+                "default": 100}
+        },
+        "methods": {
+            "setColor": {
+                "description": "Sets the background color.",
+                "parameters": [{
+                    "name": "newColor",
+                    "type": "string",
+                    "description": "The new background color"
+                }],
+                "body": "this.color = newColor;"
+            },
+            "getColor": {
+                "returnType": "string",
+                "description": "Returns the background color.",
+                "body": "return this.color;"
+            },
+            "getOpacity": {
+                "returnType": "number",
+                "description": "Returns the Opacity.",
+                "body": "return this.opacity;"
+            },
+            "setOpacity": {
+                "description": "Sets the background Opacity.",
+                "parameters": [{
+                    "name": "newOpacity",
+                    "type": "number",
+                    "description": "The new background Opacity"
+                }],
+                "body": "this.opacity = newOpacity;"
+            }
+        },
+        "events": {
+            "onClick": {
+                "description": "Called when the user clicks the Colored Box."
+            }
+        }
+}
