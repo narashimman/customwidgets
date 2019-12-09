@@ -8,10 +8,6 @@
             let shadowRoot = this.attachShadow({ mode: "open" });
             shadowRoot.appendChild(template.content.cloneNode(true));
             console.log("Hello world!");
-            this.addEventListener("click", event => {
-                var event = new Event("onClick");
-                this.dispatchEvent(event);
-            });
             this._props = {};
         }
         onCustomWidgetBeforeUpdate(changedProperties) { }
