@@ -1,18 +1,16 @@
 (function () {
     let template = document.createElement("template");
     template.innerHTML = `<H1> Hello World 4 with methods</H1>
-    < form id = "form" >
-            <fieldset>
-                <legend>Colored Box Properties</legend>
-                <table>
-                    <tr>
-                        <td>Color</td>
-                        <td><input id="styling_color" type="text" size="40" maxlength="40"></td>
-                    </tr>
-                </table>
-                <input type="submit" style="display:none;">
-            </fieldset>
-        </form>`;
+    <style>
+    : host {
+            border- radius: 25px;
+            border - width: 4px;
+            border - color: black;
+            border - style: solid;
+            display: block;
+            }
+    </style >
+    `;
 
     class helloworld extends HTMLElement {
         constructor() {
