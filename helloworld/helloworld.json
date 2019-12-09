@@ -1,25 +1,21 @@
 {
-    "id": "com.tangoboat.customwidgets.helloworld", 
+    "id": "com.narasgithub.customwidgets.helloworld", 
     "version": "1.1.0",
     "name": "Hello World",
     "description": "Hello World",
     "newInstancePrefix": "helloworld",
-    "icon": "https://tangoboat.com/customwidgets/helloworld/icon.png",
+    "icon": "https://narashimman.github.io/customwidgets/helloworld/icon_hw.png",
     "vendor": "SAP",
     "eula": "",
     "license": "",
     "webcomponents": [{
             "kind": "main",
-            "tag": "com-tangoboat-customwidgets-helloworld",
-            "url": "https://www.tangoboat.com/customwidgets/helloworld/helloworld.js",
+            "tag": "com-narasgithub-customwidgets-helloworld",
+            "url": "https://narashimman.github.io/customwidgets/helloworld/helloworld.js",
             "integrity": "",
             "ignoreIntegrity": true
         }],
     "properties": {},
     "methods": {},
-    "events": {
-        "onClick": {
-            "description": "Called when the user clicks the Colored Box."
-        }
-    }
+    "events": {}
 }
