@@ -18,9 +18,12 @@
         constructor() {
             super();
             let shadowRoot = this.attachShadow({ mode: "open" });
-            shadowRoot.appendChild(template.content.cloneNode(true));
-            console.log("Hello world, this time with a method!");
-            this._props = {};
+        shadowRoot.appendChild(template.content.cloneNode(true));
+        this.addEventListener("click", event => {
+            var event = new Event("onClick");
+            this.dispatchEvent(event);
+        });
+        this._props = {};
         }
         onCustomWidgetBeforeUpdate(changedProperties) {this._props = { ...this._props, ...changedProperties }; }
         onCustomWidgetAfterUpdate(changedProperties) {
